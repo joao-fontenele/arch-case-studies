@@ -1,5 +1,7 @@
 # How Slack rearchitected its system to achieve zero downtime and improve latency, reliability and availability
 
+Source: https://learning.oreilly.com/videos/how-slack-rearchitected/0636920459804/
+
 ## Introduction
 
 Slack user base grew by a lot, so some architectural design decisions were not optimal for the growing user base.
