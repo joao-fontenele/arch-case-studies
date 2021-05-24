@@ -15,9 +15,9 @@ The challenge was the initial connection of the client with the server. Check im
 ![connection sequence](./img/connection-time.png)
 
 
-Notice that the a snapshot of the user's channels, and conversations, is sent over the wire, and then a websocket is openned, this websocket updates the state of the client with new changes over the snapshot.
+Notice that the a snapshot of the user's channels, and conversations, is sent over the wire, and then a websocket is opened, this websocket updates the state of the client with new changes over the snapshot.
 
-The problem is that the connection time grlatencyows with the amount of channels/team of the user. I.e., big teams, means bigger snapshots and bigger load times.
+The problem is that the connection time grows with the amount of channels/team of the user. I.e., big teams, means bigger snapshots and bigger load times.
 
 ## How slack solved the problem
 
